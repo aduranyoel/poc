@@ -1,6 +1,6 @@
 {
   "name": "poc",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -10,7 +10,8 @@
     "@types/node": "^16.11.41",
     "@types/react": "^18.0.14",
     "@types/react-dom": "^18.0.5",
-    "poc-core-system": "^1.0.0",
+    "poc-core-system": "^1.0.12",
+    "poc-todo-extension": "^1.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",

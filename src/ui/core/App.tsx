@@ -1,10 +1,13 @@
-import React from 'react';
-import { ExampleComponent } from 'poc-core-system';
+import React  from 'react';
+import { CoreAppShell } from 'poc-core-system';
+
+import { useLoadExtensions } from './useLoadExtensions';
 
 function App() {
-  // TODO: load plugins
-  // TODO: render core system layout
-  return (<ExampleComponent msg="222" /> );
+  const { ready } = useLoadExtensions();
+
+  return ready ? <CoreAppShell /> : <p>Loading...</p>;
 }
+
 
 export default App;
